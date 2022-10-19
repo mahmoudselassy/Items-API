@@ -2,12 +2,12 @@
 
 > API which modifies an incoming JSON POST payload and returns a response.
 
-## Documentation
+### Documentation
 - The payload is filtered, so only items with a count greater than 1 are returned.
 - The thumbnail is a url selected from the payload item's list of logos no larger than 128x128 but no smaller than 64x64.
 
 - Request: 
-```javascript
+```json
 {
 	"payload": [
 		{
@@ -47,7 +47,7 @@
 }
 ```
 - Response: 
-```javascript
+```json
 {
 	"response": [
 		{
@@ -64,3 +64,5 @@
 }
 
 ```
+### Deployment
+- Deployed on aws lambda :[here](https://i7jmzr5vyi.execute-api.us-east-1.amazonaws.com/dev/items)
