@@ -30,8 +30,7 @@ functions:
   hello:
     handler: handler.itemsAPI
     events:
-      - http: ANY /{proxy+}
-      - http: ANY /
+      - http: ANY /items
     environment:
       PORT: 5000
 #      - websocket: $connect
