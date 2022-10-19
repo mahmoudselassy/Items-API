@@ -1,8 +1,8 @@
 import express from 'express';
-import { filterItemsByCount, setThumbnail, validateRequestBody } from '../controllers/itemController';
+import { filterByCount, setThumbnail, validatePayload } from '../controllers/itemController';
 
 const router = express.Router();
 
-router.route('/').post(validateRequestBody, filterItemsByCount, setThumbnail);
+router.route('/').post(validatePayload, filterByCount, setThumbnail);
 
 export { router };

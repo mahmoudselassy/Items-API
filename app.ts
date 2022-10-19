@@ -7,4 +7,4 @@ app.use(express.json());
 
 app.use('/items', itemRouter);
 
-export { app };
+module.exports = app;
