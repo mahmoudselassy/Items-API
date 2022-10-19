@@ -65,4 +65,4 @@
 
 ```
 ### Deployment
-- Deployed on aws lambda :[here](https://i7jmzr5vyi.execute-api.us-east-1.amazonaws.com/dev/items)
+- Deployed on aws lambda : [here](https://i7jmzr5vyi.execute-api.us-east-1.amazonaws.com/dev/items)
