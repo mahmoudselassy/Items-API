@@ -3,11 +3,10 @@
 > API which modifies an incoming JSON POST payload and returns a response.
 
 ## Documentation
--The payload is filtered, so only items with a count greater than 1 are returned.
--The thumbnail is a url selected from the payload item's list of logos no larger than 128x128 but no smaller than 64x64.
+- The payload is filtered, so only items with a count greater than 1 are returned.
+- The thumbnail is a url selected from the payload item's list of logos no larger than 128x128 but no smaller than 64x64.
 
-- Example:
-  * Request: 
+- Request: 
 ```javascript
 {
 	"payload": [
@@ -47,7 +46,7 @@
 	]
 }
 ```
-* Response: 
+- Response: 
 ```javascript
 {
 	"response": [
